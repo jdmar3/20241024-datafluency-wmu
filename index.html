@@ -56,8 +56,11 @@
 
       <!-- Slide 2: Purpose of the Talk -->
       <section>
-        <h2>Purpose of the Talk</h2>
-        <pre><code>Highlight the importance of data literacy and fluency in an era of information overload.</code></pre>
+        <pre><code>SELECT purpose
+FROM this_talk
+WHERE topic IN ("data fluency", "relevance", "knowledge building", "transferrable skills", "convergence", "AI readiness")
+AND topic NOT IN ("information literacy", "digital humanities", "STEM education", "GenAI threat");
+</code></pre>
       </section>
 
       <!-- Slide 3: Key Definitions -->
@@ -66,14 +69,41 @@
         <pre><code>Clarify the difference between data literacy and data fluency.</code></pre>
       </section>
 
-      <!-- Slide 4: The Current State of Data Production and Consumption -->
+      <!-- Slide 4: Data Explosion (Part 1) -->
       <section>
-        <h2>The Current State of Data Production and Consumption</h2>
-        <pre><code>1. Data Explosion: Discuss the rapid growth in data production.
-2. Impact on Research Institutions and Higher Education: Challenges in making informed decisions.</code></pre>
+        <pre><code>
+Year  Data Volume Change YOY	Change YOY (%)
+2025*	181.0 ZB	  ↑ 34.0 ZB	  ↑ 23.13%
+2024*	147.0 ZB	  ↑ 27.0 ZB	  ↑ 22.5%
+2023*	120.0 ZB	  ↑ 23.0 ZB	  ↑ 23.71%
+2022*	 97.0 ZB	  ↑ 18.0 ZB	  ↑ 22.78%
+2021*	 79.0 ZB	  ↑ 14.8 ZB	  ↑ 23.05%
+2020*	 64.2 ZB	  ↑ 23.2 ZB	  ↑ 56.59%
+2019*	 41.0 ZB	  ↑  8.0 ZB	  ↑ 24.24%
+2018*	 33.0 ZB	  ↑  7.0 ZB	  ↑ 26.92%
+2017	 26.0 ZB	  ↑  8.0 ZB	  ↑ 44.44%
+2016	 18.0 ZB	  ↑  2.5 ZB	  ↑ 16.13%</code></pre>
       </section>
 
-      <!-- Slide 5: Data Literacy: A Critical Foundation -->
+      <!-- Slide 5: Data Explosion (Part 2) -->
+      <section>
+        <pre><code>
+Year	Data Volume	Change YOY	Change YOY (%)
+2015	15.5 ZB	    ↑ 3.0 ZB	  ↑ 24%
+2014	12.5 ZB	    ↑ 3.5 ZB	  ↑ 38.89%
+2013	 9.0 ZB	    ↑ 2.5 ZB	  ↑ 38.46%
+2012	 6.5 ZB	    ↑ 1.5 ZB	  ↑ 30%
+2011	 5.0 ZB	    ↑ 3.0 ZB	  ↑ 150%
+2010	 2.0 ZB	    -	          -</code></pre>
+      </section>
+
+      <!-- Slide 6: Impact on Research Institutions and Higher Education -->
+      <section>
+        <h2>Impact on Research Institutions and Higher Education</h2>
+        <pre><code>Challenges in making informed decisions.</code></pre>
+      </section>
+
+      <!-- Slide 7: Data Literacy: A Critical Foundation -->
       <section>
         <h2>Data Literacy: A Critical Foundation</h2>
         <pre><code>1. Definition and Scope: Ability to read, interpret, and critically evaluate data.
@@ -81,21 +111,21 @@
 3. Real-World Examples: Negative outcomes due to lack of data literacy.</code></pre>
       </section>
 
-      <!-- Slide 6: Moving from Data Literacy to Data Fluency -->
+      <!-- Slide 8: Moving from Data Literacy to Data Fluency -->
       <section>
         <h2>Moving from Data Literacy to Data Fluency</h2>
         <pre><code>1. Defining Data Fluency: Capacity to communicate insights and apply data in decision-making.
 2. Why Fluency Matters: Enables innovation and informed, data-driven decisions.</code></pre>
       </section>
 
-      <!-- Slide 7: Challenges and Opportunities -->
+      <!-- Slide 9: Challenges and Opportunities -->
       <section>
         <h2>Challenges and Opportunities</h2>
         <pre><code>1. Challenges: Educational inertia, resource gaps, and overwhelming pace of data production.
 2. Opportunities: Adaptation and leadership in building data skills.</code></pre>
       </section>
 
-      <!-- Slide 8: Strategies for Building Data Capacity -->
+      <!-- Slide 10: Strategies for Building Data Capacity -->
       <section>
         <h2>Strategies for Building Data Capacity</h2>
         <pre><code>1. Educational Strategies: Ways for schools, universities, and training programs to foster skills.
@@ -103,7 +133,7 @@
 3. Individual Action: Encouraging personal development of data skills.</code></pre>
       </section>
 
-      <!-- Slide 9: Conclusion -->
+      <!-- Slide 11: Conclusion -->
       <section>
         <h2>Conclusion</h2>
         <pre><code>1. Key Takeaways: Importance of moving from data literacy to fluency.
