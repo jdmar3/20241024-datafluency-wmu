@@ -1,40 +1,102 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Data Futures: Literacy and Fluency in a New Era of Information Overload</title>
+  <meta name="description" content="Slides for Data Futures presentation">
+  <meta name="author" content="John D Martin III, PhD">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>reveal.js</title>
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/black.css">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+  <style>
+    .title-slide {
+      font-family: "Courier New", Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Title Slide -->
+      <section class="title-slide">
+        <h1>Data Futures</h1>
+        <h2>Literacy and Fluency in a New Era of Information Overload</h2>
+        <h3>John D Martin III, PhD</h3>
+      </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+      <!-- Slide 1: Introduction -->
+      <section>
+        <h2>Introduction</h2>
+        <pre><code>1. Begin with a series of questions to engage the audience:
+   - "Who here interacts with data as part of your work?"
+   - "How many people here today have interacted with a database today?"
+   - "How many of you could give a definition of what a database is?"
+2. Purpose of the Talk: Highlight the importance of data literacy and fluency in an era of information overload.
+3. Key Definitions: Clarify the difference between data literacy and data fluency.</code></pre>
+      </section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+      <!-- Slide 2: The Current State of Data Production and Consumption -->
+      <section>
+        <h2>The Current State of Data Production and Consumption</h2>
+        <pre><code>1. Data Explosion: Discuss the rapid growth in data production.
+2. Impact on Research Institutions and Higher Education: Challenges in making informed decisions.</code></pre>
+      </section>
+
+      <!-- Slide 3: Data Literacy: A Critical Foundation -->
+      <section>
+        <h2>Data Literacy: A Critical Foundation</h2>
+        <pre><code>1. Definition and Scope: Ability to read, interpret, and critically evaluate data.
+2. Current Gaps: Gaps in education and professional development.
+3. Real-World Examples: Negative outcomes due to lack of data literacy.</code></pre>
+      </section>
+
+      <!-- Slide 4: Moving from Data Literacy to Data Fluency -->
+      <section>
+        <h2>Moving from Data Literacy to Data Fluency</h2>
+        <pre><code>1. Defining Data Fluency: Capacity to communicate insights and apply data in decision-making.
+2. Why Fluency Matters: Enables innovation and informed, data-driven decisions.</code></pre>
+      </section>
+
+      <!-- Slide 5: Challenges and Opportunities -->
+      <section>
+        <h2>Challenges and Opportunities</h2>
+        <pre><code>1. Challenges: Educational inertia, resource gaps, and overwhelming pace of data production.
+2. Opportunities: Adaptation and leadership in building data skills.</code></pre>
+      </section>
+
+      <!-- Slide 6: Strategies for Building Data Capacity -->
+      <section>
+        <h2>Strategies for Building Data Capacity</h2>
+        <pre><code>1. Educational Strategies: Ways for schools, universities, and training programs to foster skills.
+2. Organizational Approaches: Integrating data training into workplace culture.
+3. Individual Action: Encouraging personal development of data skills.</code></pre>
+      </section>
+
+      <!-- Slide 7: Conclusion -->
+      <section>
+        <h2>Conclusion</h2>
+        <pre><code>1. Key Takeaways: Importance of moving from data literacy to fluency.
+2. Call to Action: Reflect on data capabilities and enhance skills.</code></pre>
+      </section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    });
+    hljs.highlightAll();
+  </script>
+</body>
 </html>
