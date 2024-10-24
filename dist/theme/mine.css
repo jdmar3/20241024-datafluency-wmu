@@ -233,11 +233,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal .code-wrapper {
-  white-space: pre;
+  white-space: break-spaces;
 }
 
 .reveal .code-wrapper code {
-  white-space: pre;
+  white-space: break-spaces;
 }
 
 .reveal table {
