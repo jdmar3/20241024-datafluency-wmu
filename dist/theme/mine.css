@@ -209,7 +209,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   display: block;
   position: relative;
   width: 90%;
-  margin: var(--r-block-margin) auto;
+  margin: var(--r-block-margin) 10px;
   text-align: left;
   font-size: 0.55em;
   font-family: var(--r-code-font);
