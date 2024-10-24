@@ -65,8 +65,25 @@ AND topic NOT IN ("information literacy", "digital humanities", "STEM education"
 
       <!-- Slide 3: Key Definitions -->
       <section>
-        <h2>Key Definitions</h2>
-        <pre><code>Clarify the difference between data literacy and data fluency.</code></pre>
+        <pre><code>#!/usr/bin/env python3
+
+data = "Data refers to raw facts, figures, and information that can be collected, analyzed, and used to draw conclusions or make decisions."
+data_literacy = "This variable refers to the ability to read, interpret, and critically evaluate data."
+data_tools = "Technologies used for data management, analysis, archiving and sharing."
+data_ontology = "A structured framework that defines relationships and categories for data, allowing for better organization, integration, and understanding of data across different domains."
+
+data_fluency = {
+    "data": data,
+    "tools": data_tools,
+    "data_literacy": data_literacy,
+    "data_ontology": data_ontology
+}
+
+definition = f"Data fluency involves {data_fluency['data']}, leveraging {data_fluency['tools']}, understanding {data_fluency['data_literacy']}, and utilizing {data_fluency['data_ontology']} to make informed decisions."
+print(definition)
+
+exit()
+</code></pre>
       </section>
 
       <!-- Slide 4: Data Explosion (Part 1) -->
@@ -103,11 +120,29 @@ AND topic NOT IN ("information literacy", "digital humanities", "STEM education"
       <!-- Slide 7: Data Literacy: A Critical Foundation -->
       <section>
         <h2>Data Literacy: A Critical Foundation</h2>
-        <pre><code>1. Definition and Scope: Ability to read, interpret, and critically evaluate data.
-2. Current Gaps: Gaps in education and professional development.
-3. Real-World Examples: Negative outcomes due to lack of data literacy.</code></pre>
+        <pre><code><pre><code class="wrap"># Load the necessary library
+library(dplyr)
+
+# Load the CSV data
+data_literacy <- read.csv("data.csv")
+
+# List all variables in the dataset
+names(data_literacy)
+
+# Summarize all variables in the dataset
+summary(data_literacy)</code></pre></code></pre>
+      </section>
+      <!-- Slide 8: Data Literacy: Current Gaps -->
+      <section>
+        <h2>Data Literacy: Current Gaps</h2>
+        <pre><code>Gaps in education and professional development.</code></pre>
       </section>
 
+      <!-- Slide 9: Data Literacy: Real-World Examples -->
+      <section>
+        <h2>Data Literacy: Real-World Examples</h2>
+        <pre><code>Negative outcomes due to lack of data literacy.</code></pre>
+      </section>
       <!-- Slide 8: Moving from Data Literacy to Data Fluency -->
       <section>
         <h2>Moving from Data Literacy to Data Fluency</h2>
